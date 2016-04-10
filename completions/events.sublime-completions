@@ -38,6 +38,10 @@
             "contents": "emitter.emit(${1:event}, ${2:[, arg1]}, ${3:[, arg2]}, ${4:[, ...]});$0"
         },
         {
+            "trigger": "emitter.listenerCount(type)\tEvents",
+            "contents": "emitter.listenerCount(${1:type});$0"
+        },
+        {
             "trigger": "EventEmitter.listenerCount(emitter, event)\tEvents",
             "contents": "EventEmitter.listenerCount(${1:emitter}, ${2:event});$0"
         },

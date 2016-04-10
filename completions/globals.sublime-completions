@@ -22,16 +22,32 @@
             "contents": "process.getgid();$0"
         },
         {
+            "trigger": "process.getegid()\tglobals",
+            "contents": "process.getegid();$0"
+        },
+        {
             "trigger": "process.setgid(id)\tglobals",
             "contents": "process.setgid(${1:id});$0"
+        },
+        {
+            "trigger": "process.setegid(id)\tglobals",
+            "contents": "process.setegid(${1:id});$0"
         },
         {
             "trigger": "process.getuid()\tglobals",
             "contents": "process.getuid();$0"
         },
         {
+            "trigger": "process.geteuid()\tglobals",
+            "contents": "process.geteuid();$0"
+        },
+        {
             "trigger": "process.setuid(id)\tglobals",
             "contents": "process.setuid(${1:id});$0"
+        },
+        {
+            "trigger": "process.seteuid(id)\tglobals",
+            "contents": "process.seteuid(${1:id});$0"
         },
         {
             "trigger": "process.getgroups()\tglobals",

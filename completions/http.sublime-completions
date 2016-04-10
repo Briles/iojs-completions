@@ -198,6 +198,10 @@
             "contents": "continue$0"
         },
         {
+            "trigger": "abort\thttp",
+            "contents": "abort$0"
+        },
+        {
             "trigger": "http.METHODS\thttp",
             "contents": "http.METHODS$0"
         },

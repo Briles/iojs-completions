@@ -182,6 +182,14 @@
             "contents": "uncaughtException$0"
         },
         {
+            "trigger": "unhandledRejection\tglobals",
+            "contents": "unhandledRejection$0"
+        },
+        {
+            "trigger": "rejectionHandled\tglobals",
+            "contents": "rejectionHandled$0"
+        },
+        {
             "trigger": "SIGINT, SIGHUP, etc.\tglobals",
             "contents": "SIGINT, SIGHUP, etc.$0"
         }

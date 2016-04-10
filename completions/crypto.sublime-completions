@@ -82,16 +82,16 @@
             "contents": "crypto.publicEncrypt(${1:public_key}, ${2:buffer});$0"
         },
         {
+            "trigger": "crypto.publicDecrypt(public_key, buffer)\tcrypto",
+            "contents": "crypto.publicDecrypt(${1:public_key}, ${2:buffer});$0"
+        },
+        {
             "trigger": "crypto.privateDecrypt(private_key, buffer)\tcrypto",
             "contents": "crypto.privateDecrypt(${1:private_key}, ${2:buffer});$0"
         },
         {
             "trigger": "crypto.privateEncrypt(private_key, buffer)\tcrypto",
             "contents": "crypto.privateEncrypt(${1:private_key}, ${2:buffer});$0"
-        },
-        {
-            "trigger": "crypto.publicDecrypt(public_key, buffer)\tcrypto",
-            "contents": "crypto.publicDecrypt(${1:public_key}, ${2:buffer});$0"
         },
         {
             "trigger": "hash.update(data[, input_encoding])\tcrypto",

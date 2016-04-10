@@ -1,0 +1,9 @@
+{
+    "scope": "source.js",
+    "completions": [
+        {
+            "trigger": "dns.lookup(hostname[, options], callback)\tdns",
+            "contents": "dns.lookup(${1:hostname}, ${2:[, options]}, ${3:callback});$0"
+        }
+    ]
+}

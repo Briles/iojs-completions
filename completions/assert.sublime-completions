@@ -6,8 +6,8 @@
             "contents": "assert.fail(${1:actual}, ${2:expected}, ${3:message}, ${4:operator});$0"
         },
         {
-            "trigger": "assert(value, message), assert.ok(value[, message])\tassert",
-            "contents": "assert(${1:value}, ${2:message)}, ${3:assert.ok(value}, ${4:[, message]});$0"
+            "trigger": "assert(value[, message]), assert.ok(value[, message])\tassert",
+            "contents": "assert(${1:value}, ${2:message])}, ${3:assert.ok(value}, ${4:[, message]});$0"
         },
         {
             "trigger": "assert.equal(actual, expected[, message])\tassert",

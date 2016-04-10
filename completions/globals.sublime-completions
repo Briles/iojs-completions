@@ -54,8 +54,8 @@
             "contents": "process.memoryUsage();$0"
         },
         {
-            "trigger": "process.nextTick(callback)\tglobals",
-            "contents": "process.nextTick(${1:callback});$0"
+            "trigger": "process.nextTick(callback[, arg][, ...])\tglobals",
+            "contents": "process.nextTick(${1:callback}, ${2:[, arg]}, ${3:[, ...]});$0"
         },
         {
             "trigger": "process.umask([mask])\tglobals",

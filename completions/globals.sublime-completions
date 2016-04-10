@@ -2,42 +2,6 @@
     "scope": "source.js",
     "completions": [
         {
-            "trigger": "console.log([data][, ...])\tglobals",
-            "contents": "console.log(${1:[, data]}, ${2:[, ...]});$0"
-        },
-        {
-            "trigger": "console.info([data][, ...])\tglobals",
-            "contents": "console.info(${1:[, data]}, ${2:[, ...]});$0"
-        },
-        {
-            "trigger": "console.error([data][, ...])\tglobals",
-            "contents": "console.error(${1:[, data]}, ${2:[, ...]});$0"
-        },
-        {
-            "trigger": "console.warn([data][, ...])\tglobals",
-            "contents": "console.warn(${1:[, data]}, ${2:[, ...]});$0"
-        },
-        {
-            "trigger": "console.dir(obj[, options])\tglobals",
-            "contents": "console.dir(${1:obj}, ${2:[, options]});$0"
-        },
-        {
-            "trigger": "console.time(label)\tglobals",
-            "contents": "console.time(${1:label});$0"
-        },
-        {
-            "trigger": "console.timeEnd(label)\tglobals",
-            "contents": "console.timeEnd(${1:label});$0"
-        },
-        {
-            "trigger": "console.trace(message[, ...])\tglobals",
-            "contents": "console.trace(${1:message}, ${2:[, ...]});$0"
-        },
-        {
-            "trigger": "console.assert(value[, message][, ...])\tglobals",
-            "contents": "console.assert(${1:value}, ${2:[, message]}, ${3:[, ...]});$0"
-        },
-        {
             "trigger": "process.abort()\tglobals",
             "contents": "process.abort();$0"
         },

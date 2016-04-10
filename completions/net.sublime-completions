@@ -106,6 +106,10 @@
             "contents": "new net.Socket(${1:[, options]});$0"
         },
         {
+            "trigger": "socket.connect(options[, connectListener])\tnet",
+            "contents": "socket.connect(${1:options}, ${2:[, connectListener]});$0"
+        },
+        {
             "trigger": "socket.connect(port[, host][, connectListener])\tnet",
             "contents": "socket.connect(${1:path}, ${2:[, connectListener]});$0"
         },

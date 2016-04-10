@@ -158,8 +158,8 @@
             "contents": "http.agent.requests$0"
         },
         {
-            "trigger": "request.flush()\thttp",
-            "contents": "request.flush();$0"
+            "trigger": "request.flushHeaders()\thttp",
+            "contents": "request.flushHeaders();$0"
         },
         {
             "trigger": "request.write(chunk[, encoding][, callback])\thttp",

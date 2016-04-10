@@ -6,12 +6,12 @@
             "contents": "net.createServer(${1:[, options]}, ${2:[, connectionListener]});$0"
         },
         {
-            "trigger": "net.connect(options[, connectionListener])\tnet",
-            "contents": "net.connect(${1:options}, ${2:[, connectionListener]});$0"
+            "trigger": "net.connect(options[, connectListener])\tnet",
+            "contents": "net.connect(${1:options}, ${2:[, connectListener]});$0"
         },
         {
-            "trigger": "net.createConnection(options[, connectionListener])\tnet",
-            "contents": "net.createConnection(${1:options}, ${2:[, connectionListener]});$0"
+            "trigger": "net.createConnection(options[, connectListener])\tnet",
+            "contents": "net.createConnection(${1:options}, ${2:[, connectListener]});$0"
         },
         {
             "trigger": "net.connect(port[, host][, connectListener])\tnet",

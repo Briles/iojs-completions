@@ -34,8 +34,8 @@
             "contents": "secure$0"
         },
         {
-            "trigger": "server.listen(port[, host][, callback])\ttls_(ssl)",
-            "contents": "server.listen(${1:port}, ${2:[, host]}, ${3:[, callback]});$0"
+            "trigger": "server.listen(port[, hostname][, callback])\ttls_(ssl)",
+            "contents": "server.listen(${1:port}, ${2:[, hostname]}, ${3:[, callback]});$0"
         },
         {
             "trigger": "server.close([callback])\ttls_(ssl)",

@@ -162,6 +162,18 @@
             "contents": "buf.fill(${1:value}, ${2:[, offset]}, ${3:[, end]});$0"
         },
         {
+            "trigger": "buffer.values()\tbuffer",
+            "contents": "buffer.values();$0"
+        },
+        {
+            "trigger": "buffer.keys()\tbuffer",
+            "contents": "buffer.keys();$0"
+        },
+        {
+            "trigger": "buffer.entries()\tbuffer",
+            "contents": "buffer.entries();$0"
+        },
+        {
             "trigger": "Buffer.isEncoding(encoding)\tbuffer",
             "contents": "Buffer.isEncoding(${1:encoding});$0"
         },

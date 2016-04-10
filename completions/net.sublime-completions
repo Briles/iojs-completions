@@ -42,8 +42,8 @@
             "contents": "net.isIPv6(${1:input});$0"
         },
         {
-            "trigger": "server.listen(port[, host][, backlog][, callback])\tnet",
-            "contents": "server.listen(${1:port}, ${2:[, host]}, ${3:[, backlog]}, ${4:[, callback]});$0"
+            "trigger": "server.listen(port[, hostname][, backlog][, callback])\tnet",
+            "contents": "server.listen(${1:port}, ${2:[, hostname]}, ${3:[, backlog]}, ${4:[, callback]});$0"
         },
         {
             "trigger": "server.listen(path[, callback])\tnet",

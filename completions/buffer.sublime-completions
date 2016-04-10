@@ -46,6 +46,10 @@
             "contents": "buf.slice(${1:[, start]}, ${2:[, end]});$0"
         },
         {
+            "trigger": "buf.indexOf(value[, byteOffset])\tbuffer",
+            "contents": "buf.indexOf(${1:value}, ${2:[, byteOffset]});$0"
+        },
+        {
             "trigger": "buf.readUInt8(offset[, noAssert])\tbuffer",
             "contents": "buf.readUInt8(${1:offset}, ${2:[, noAssert]});$0"
         },

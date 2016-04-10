@@ -130,6 +130,10 @@
             "contents": "process.config$0"
         },
         {
+            "trigger": "process.release\tglobals",
+            "contents": "process.release$0"
+        },
+        {
             "trigger": "process.pid\tglobals",
             "contents": "process.pid$0"
         },

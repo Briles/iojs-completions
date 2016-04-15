@@ -3,87 +3,87 @@
     "completions": [
         {
             "trigger": "process.abort()\tglobals",
-            "contents": "process.abort();$0"
+            "contents": "process.abort()$0"
         },
         {
             "trigger": "process.chdir(directory)\tglobals",
-            "contents": "process.chdir(${1:directory});$0"
+            "contents": "process.chdir(${1:directory})$0"
         },
         {
             "trigger": "process.cwd()\tglobals",
-            "contents": "process.cwd();$0"
+            "contents": "process.cwd()$0"
         },
         {
             "trigger": "process.exit([code])\tglobals",
-            "contents": "process.exit(${1:[, code]});$0"
+            "contents": "process.exit(${1:[, code]})$0"
         },
         {
             "trigger": "process.getgid()\tglobals",
-            "contents": "process.getgid();$0"
+            "contents": "process.getgid()$0"
         },
         {
             "trigger": "process.getegid()\tglobals",
-            "contents": "process.getegid();$0"
+            "contents": "process.getegid()$0"
         },
         {
             "trigger": "process.setgid(id)\tglobals",
-            "contents": "process.setgid(${1:id});$0"
+            "contents": "process.setgid(${1:id})$0"
         },
         {
             "trigger": "process.setegid(id)\tglobals",
-            "contents": "process.setegid(${1:id});$0"
+            "contents": "process.setegid(${1:id})$0"
         },
         {
             "trigger": "process.getuid()\tglobals",
-            "contents": "process.getuid();$0"
+            "contents": "process.getuid()$0"
         },
         {
             "trigger": "process.geteuid()\tglobals",
-            "contents": "process.geteuid();$0"
+            "contents": "process.geteuid()$0"
         },
         {
             "trigger": "process.setuid(id)\tglobals",
-            "contents": "process.setuid(${1:id});$0"
+            "contents": "process.setuid(${1:id})$0"
         },
         {
             "trigger": "process.seteuid(id)\tglobals",
-            "contents": "process.seteuid(${1:id});$0"
+            "contents": "process.seteuid(${1:id})$0"
         },
         {
             "trigger": "process.getgroups()\tglobals",
-            "contents": "process.getgroups();$0"
+            "contents": "process.getgroups()$0"
         },
         {
             "trigger": "process.setgroups(groups)\tglobals",
-            "contents": "process.setgroups(${1:groups});$0"
+            "contents": "process.setgroups(${1:groups})$0"
         },
         {
             "trigger": "process.initgroups(user, extra_group)\tglobals",
-            "contents": "process.initgroups(${1:user}, ${2:extra_group});$0"
+            "contents": "process.initgroups(${1:user}, ${2:extra_group})$0"
         },
         {
             "trigger": "process.kill(pid[, signal])\tglobals",
-            "contents": "process.kill(${1:pid}, ${2:[, signal]});$0"
+            "contents": "process.kill(${1:pid}, ${2:[, signal]})$0"
         },
         {
             "trigger": "process.memoryUsage()\tglobals",
-            "contents": "process.memoryUsage();$0"
+            "contents": "process.memoryUsage()$0"
         },
         {
             "trigger": "process.nextTick(callback[, arg][, ...])\tglobals",
-            "contents": "process.nextTick(${1:callback}, ${2:[, arg]}, ${3:[, ...]});$0"
+            "contents": "process.nextTick(${1:callback}, ${2:[, arg]}, ${3:[, ...]})$0"
         },
         {
             "trigger": "process.umask([mask])\tglobals",
-            "contents": "process.umask(${1:[, mask]});$0"
+            "contents": "process.umask(${1:[, mask]})$0"
         },
         {
             "trigger": "process.uptime()\tglobals",
-            "contents": "process.uptime();$0"
+            "contents": "process.uptime()$0"
         },
         {
             "trigger": "process.hrtime()\tglobals",
-            "contents": "process.hrtime();$0"
+            "contents": "process.hrtime()$0"
         },
         {
             "trigger": "process.stdout\tglobals",

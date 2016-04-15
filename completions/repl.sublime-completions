@@ -3,7 +3,7 @@
     "completions": [
         {
             "trigger": "repl.start(options)\trepl",
-            "contents": "repl.start(${1:options});$0"
+            "contents": "repl.start(${1:options})$0"
         }
     ]
 }

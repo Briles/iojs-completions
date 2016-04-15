@@ -27,7 +27,7 @@
         },
         {
             "trigger": "module.require(id)\tmodule",
-            "contents": "module.require(${1:id});$0"
+            "contents": "module.require(${1:id})$0"
         }
     ]
 }
